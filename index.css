@@ -1,0 +1,248 @@
+body{
+  text-align: center;
+}
+
+.red{
+  color: red;
+}
+
+span{
+  color:#f97352 ;
+}
+
+.logo{
+  color: blue;
+}
+
+/* Navigation-bar Section */
+.nav-item:hover {
+color: white;
+  background-color: #aea8f3;
+  border: 2px solid #f97352;
+  border-radius: 8px;
+  box-shadow: 0 12px 11px 0 rgba(0,0,0,0.24),
+  0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.navbrand{
+  font-size: 1.6rem;
+}
+
+.nav-position{
+  font-size: 1.2rem;
+}
+
+.nav-item{
+  padding-left: 20px;
+}
+
+
+/* Section */
+.bg-img1{
+  background-image: url(Images/software.jpg);
+    background-color: #cccccc;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* filter: blur(2px); */
+}
+
+.bg-img2{
+  background-image: url(Images/software6.jpg);
+    background-color: #cccccc;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* filter: blur(2px); */
+}
+
+.bg-img3{
+  background-image: url(Images/software4.jpg);
+    background-color: #cccc;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* filter: blur(2px); */
+}
+
+.bg-test{
+  color: white;
+  padding: 10% 5% 2% 30%;
+
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonials-text{
+  color: white;
+}
+
+
+
+
+       /* What We do Section */
+.we-do{
+  width: 74%;
+  margin: 5% 18% 5% 13%;
+  font-size: 1.13rem;
+}
+
+       /* Our Fortes Section */
+.fortesimg {
+  width: 70%;
+  height: 50%;
+  margin: 15% auto;
+}
+
+hr {
+  border-top: 9px dotted;
+  border-bottom: none;
+  color: gold;
+  margin: 20px;
+  margin-left: 100px;
+  width: 150px;
+}
+
+
+      /* Services Section */
+.services {
+  position: relative;
+  top: 160px;
+  background-color: #dee1e3;
+  padding: 100px 0;
+
+}
+
+.pservices {
+  color: #777;
+  font-size: 1.08rem;
+  line-height: 1.7rem;
+
+}
+
+.we-doo{
+  width: 65%;
+}
+
+
+/* Section */
+.now{
+  background-color:#D3D3D3;
+  margin-top:160px;
+  position: relative;
+  padding-top: 100px;
+
+
+}
+
+.now1{
+  padding: 0 7%;
+}
+
+.liquid-img{
+  width: 75%;
+}
+        /* first carousel Section */
+.carousel1{
+margin: 100px;
+width: 56%;
+}
+
+
+
+       /* Second Carousel testimonial section */
+.testimonial{
+  text-align: center;
+  color: #fff;
+  background-image: url(Images/flower3.jpg);
+  padding: 3% 0;
+  margin-bottom: 10%;
+  height: 550px;
+}
+
+/* .testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+} */
+
+.c-position {
+  padding: 7% 15%;}
+
+
+  /* Footer Section */
+.bottom-container {
+background-color:black;
+padding: 60px 0 80px 15px;
+}
+
+.links{
+text-align: left;
+}
+
+.bottom-logo{
+padding: 0 5px 30px 20px;
+}
+
+.footer-link{
+text-decoration: none;
+cursor: pointer;
+padding: 1px 9px;
+margin: 0 1px 20px;
+font-size: 1.05rem;
+}
+
+.footer-link:hover{
+background-color:#C0C0C0;
+}
+
+.footer-links{
+text-decoration: none;
+color: whitesmoke;
+cursor: pointer;
+padding: 1px 9px;
+margin: 5px 1px;
+font-size: 1.05rem;
+}
+
+.footer-links:hover{
+color:burlywood;
+}
+
+@media screen and (max-width: 575px) {
+ .resources{
+   padding: 50px 0 0 12px;
+ }
+}
+
+@media screen and (max-width: 990px) {
+ .follow{
+   padding: 50px 12px;
+ }
+}
+.copyright {
+text-align: center;
+color: #EAF6F6;
+font-size: 0.83rem;
+padding: 40px 0;
+}
+
+/* fontawesome icons */
+.icon{
+  color: whitesmoke;
+  padding: 1px 9px;
+  margin: 5px 1px;
+}
+.icon:hover{
+  color: burlywood;
+}
