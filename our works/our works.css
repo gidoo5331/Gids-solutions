@@ -17,12 +17,19 @@ color: white;
 }
 
 .nav-position{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 575px) {
+  .nav-position{
+    font-weight: bold;
+  }
 }
 
 .nav-item{
   padding-left: 20px;
 }
+
 /* Section */
 .bad {
   margin: 0;
@@ -49,6 +56,7 @@ color: white;
 .background-text {
   text-align: center;
   position: absolute;
+  background-position: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

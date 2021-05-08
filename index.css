@@ -29,7 +29,13 @@ color: white;
 }
 
 .nav-position{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 575px) {
+  .nav-position{
+    font-weight: bold;
+  }
 }
 
 .nav-item{
