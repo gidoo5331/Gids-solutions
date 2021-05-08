@@ -74,7 +74,12 @@ color: white;
 .bg-test{
   color: white;
   padding: 10% 5% 2% 30%;
+}
 
+@media screen and (max-width: 575px) {
+ .ter{
+   padding-top: 28%;
+ }
 }
 
 .testimonial-image{
@@ -92,8 +97,8 @@ color: white;
 
        /* What We do Section */
 .we-do{
-  width: 74%;
-  margin: 5% 18% 5% 13%;
+  width: 79%;
+  margin: 9% 18% 9% 13%;
   font-size: 1.13rem;
 }
 
@@ -101,8 +106,16 @@ color: white;
 .fortesimg {
   width: 70%;
   height: 50%;
-  margin: 15% auto;
+  margin: 20% auto 5% auto;
 }
+
+@media screen and (max-width: 575px) {
+  .fort{
+    padding-top: 10%;
+  }
+}
+
+
 
 hr {
   border-top: 9px dotted;
@@ -179,6 +192,10 @@ width: 56%;
 .c-position {
   padding: 7% 15%;}
 
+@media (max-width: 575.98px){
+  .c-position {
+    margin-top: 29% ;}
+ }
 
   /* Footer Section */
 .bottom-container {
