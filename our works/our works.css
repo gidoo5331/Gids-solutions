@@ -20,6 +20,10 @@ color: white;
   font-size: 1.3rem;
 }
 
+.last{
+  padding-bottom: 30%;
+}
+
 @media screen and (max-width: 575px) {
   .nav-position{
     font-weight: bold;
